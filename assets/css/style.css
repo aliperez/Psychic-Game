@@ -1,0 +1,100 @@
+body{
+    margin: 30px;
+    background: url("../images/tri.jpg");
+    /* background-size: 100% auto; */
+    /* background-repeat: no-repeat; */
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 24pt;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background: white;
+    width: 580px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#wins, #losses, #guessRemain, #guessSoFar{
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    width: 520px;
+    padding: 10px;
+    line-height: 20px;
+    border: 3px dashed black;
+    font-style: italic;
+}
+
+.container{
+    margin: 0 auto;
+    /* background-color: grey; */
+    width: 50%;
+    /* height: 500px;
+    align-content: center; */
+    /* position: relative; */
+}
+
+/* .container2{
+    margin: 0 auto;
+    position: relative;
+} */
+
+.box1{
+    margin: 10px;
+    padding: 40px;
+    /* float: left; */
+    background-color: lightgreen;
+    border: 3px solid black;
+    /* width: 100px; */
+    /* position: absolute;
+    left: 10%; */
+}
+
+.box2{
+    margin: 10px;
+    padding: 40px;
+    /* float: left; */
+    background-color: pink;
+    border: 3px solid black;
+    /* width: 100px; */
+    /* position: absolute;
+    right: 10%; */
+}
+
+.box3{
+    /* clear: both; */
+    margin: 10px;
+    padding: 40px;
+    /* float: left; */
+    background-color: rgb(255, 255, 155);
+    border: 3px solid black;
+    /* width: 150px; */
+    /* position: absolute;
+    left: 35%;
+    top: 30%; */
+}
+
+.box4{
+    /* clear: both; */
+    margin: 10px;
+    padding: 40px;
+    /* float: left; */
+    background-color: lightblue;
+    border: 3px solid black;
+    /* width: 250px; */
+    /* position: absolute;
+    bottom: 18%;
+    left: 25%; */
+}

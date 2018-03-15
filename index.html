@@ -4,16 +4,23 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
     <h1>Welcome to the Amazing Psychic Game!</h1>
-    <p>Can you guess what letter of the alphabet I'm thinking of?  You have 9 tries.</p>
-    <h2>Wins: <span id = "wins"></span></h2>
-    <h2>Losses: <span id = "losses"></span></h2>
-    <h2>Guesses Left: <span id = "guessRemain"></span></h2>
-    <h2>Your Guesses so far: <span id = "guessSoFar"></span></h2>   
+    
+    <p>Can you guess what letter of the alphabet I'm thinking of? You have 9 tries.</p>
+
+    <div class = "container">
+        <div class = "container2">
+            <h2 class = "box1">Wins: <span id = "wins"></span></h2>
+            <h2 class = "box2">Losses: <span id = "losses"></span></h2>
+        </div>
+        <h2 class = "box3">Guesses Left: <span id = "guessRemain"></span></h2>
+        <h2 class = "box4">Your Guesses so far: <span id = "guessSoFar"></span></h2>   
+    </div>
 
     <script src="assets/javascript/game.js"></script>
     
